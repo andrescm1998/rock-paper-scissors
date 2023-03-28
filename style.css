@@ -1,0 +1,40 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(39, 39, 135);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#choices {
+    display: flex;
+}
+
+.player-choice {
+    font-size: 5em;
+}
+
+.player-choice:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.score {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    color: aliceblue;
+}
+
+#result {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    color: aliceblue;
+}
